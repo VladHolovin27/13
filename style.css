@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu-top {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 510px;
+    background-color: #38495b;
+    border-radius: 5px;
+    text-transform: uppercase;
+    box-shadow: 10px 10px 5px 0px rgba(46, 62, 78, 0.25);
+    transition: 0.2s;
+}
+
+.menu-button {
+    text-decoration: none;
+    color: #b3eada;
+    padding: 10px 20px;
+    border-radius: 9px;
+}
+
+.menu {
+    background-color: #2e3e4e;
+    height: 100vh;
+    font-family: "Roboto";
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-weight: 700;
+    src: url(./Roboto-Italic.ttf);
+    font-style: italic;
+}
+
+.menu-button:hover {
+    background-color: #43bb99;
+    color: #e0e7ec;
+}
+.menu2 {
+    margin: auto;
+    background-color: burlywood;
+    width: 330px;
+    border-radius: 5px;
+    margin-top: 20px;
+   }
+
+   .menu-image {
+    width: 300px;
+    padding: 15px;
+  }
+
+  .menu-top1 {
+    color: black;
+    font-size: 22px;
+    font-size: "Roboto";
+    text-align: center;
+  }
+  
+  .text {
+    display: block;
+    color: black;
+    font-size: 12px;
+    font-family: "Roboto";
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .tsena {
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 70px;
+  }
+  
+  .button {
+    display: block;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 8px 145px;
+  }
+  
